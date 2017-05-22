@@ -1,0 +1,19 @@
+<!-- LOGIN link for convenience -->
+<p><a class="login" href="https://catalog.wccls.org/polaris/patronaccount/default.aspx">Log in</a></p>
+
+<!-- FORM begins here -->
+<form action="https://catalog.wccls.org/polaris/view.aspx?keyword=" method="get">
+<div class="searchBox">
+<label id="searchBoxLabel">Search the catalog: 
+	<input class="term" name="keyword" size="25" type="text">
+	<input id="submitPolarisSearch" name="submit" value="Go!" type="submit">
+</label>
+</div>
+
+<!-- CATALOG links begin here --->
+<div class="catalogLink">
+<p><a href="https://catalog.wccls.org/polaris/patronaccount/default.aspx">My Account/Renew</a></p>
+<p><a href="http://catalog.wccls.org/polaris/search/default.aspx?ctx=1.1033.0.0.6&amp;type=Advanced">Advanced Search</a></p>
+<p><a href="https://m.wccls.org">Mobile Catalog</a></p>
+</div>
+</form>

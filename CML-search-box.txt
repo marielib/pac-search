@@ -1,0 +1,27 @@
+Cedar Mill's form:
+
+<form id="frmSearch" action="http://catalog.wccls.org/polaris/search/searchresults.aspx" target="_catalog" name="frmSearch" method="get">
+<input type="hidden" value="11.1033.0.0.1" name="ctx">
+<input type="hidden" value="" name="displayterm">
+<p>
+<input id="term" type="text" size="15" name="term">
+<input type="hidden" value="1" name="tran">
+<input type="hidden" value="3" name="SessionOrgID">
+<input type="hidden" value="1033" name="languageid">
+<input type="hidden" value="Keyword" name="type">
+<input type="hidden" value="SearchResults" name="loc">
+<input type="hidden" name="multidb">
+</p>
+<p>
+<select size="1" name="by">
+<option selected="" value="KW">Any Field</option>
+<option value="TI">Title</option>
+<option value="AU">Author</option>
+<option value="SU">Subject</option>
+</select>
+</p>
+<input type="hidden" value="12" name="using">
+<p>
+<input type="submit" value="SEARCH" name="btnSearch" title="Search library catalog" style="cursor: pointer;">
+</p>
+</form>

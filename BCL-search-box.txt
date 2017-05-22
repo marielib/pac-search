@@ -1,0 +1,37 @@
+Beaverton's search box:
+<subform id="frmSearch" target="_catalog" action="http://www.wccls.org/polaris/search/searchresults.aspx" name="frmSearch" method="get" style="PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px -8px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px">
+<div id="wccls" style="BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 6px; MARGIN: 0px; PADDING-LEFT: 4px; WIDTH: 158px; PADDING-RIGHT: 4px; FONT-FAMILY: Verdana, Geneva, sans-serif; BACKGROUND: #fff; FONT-SIZE: 9pt; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 4px">
+<img src="/images/InfoAdvanced/9/WCCLSlogo_2012.gif" alt="Washington County Cooperative Library Services">
+<p style="MARGIN-TOP: 0.5em; MARGIN-BOTTOM: 0.5em; COLOR: #333; FONT-WEIGHT: bold">Search Library Catalog</p>
+<p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0.5em">
+<label for="by" style="POSITION: absolute; WIDTH: 1px; HEIGHT: 1px; OVERFLOW: hidden; TOP: -500px; LEFT: 0px">Search by:</label>
+<select name="by" size="1">
+</p>
+<p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 1em">
+<input type="hidden" value="1.1033.0.0.1" name="ctx">
+<input type="hidden" name="displayterm">
+<input type="hidden" value="1" name="tran">
+<input type="hidden" value="3" name="SessionOrgID">
+<input type="hidden" value="1033" name="languageid">
+<input type="hidden" value="Keyword" name="type">
+<input type="hidden" value="SearchResults" name="loc">
+<input type="hidden" name="multidb">
+<input type="hidden" value="12" name="using">
+<label for="term" style="POSITION: absolute; WIDTH: 1px; HEIGHT: 1px; OVERFLOW: hidden; TOP: -500px; LEFT: 0px">Search for:</label>
+<input id="term" name="term" style="WIDTH: 105px">
+<input type="button" value="GO" name="btnSearch" style="PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px">
+<font style="FONT-SIZE: 0.8em">Enter search term & click Go.</font>
+</p>
+<p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 0.8em">
+<a class="Hyperlink" target="_blank" href="https://catalog.wccls.org/polaris/logon.aspx">
+<strong>Patron Account</strong>
+</a>
+</p>
+<p style="MARGIN-TOP: 0px; MARGIN-BOTTOM: 1.2em">
+<a class="Hyperlink" target="_blank" href="http://www.wccls.org/periodicals/index.cfm?pac=h&subj=1108681614">Online Resources</a>
+<br>
+<font style="FONT-SIZE: 0.8em">Read magazine, newspaper, and reference articles online.</font>
+</p>
+</div>
+<br>
+</subform>

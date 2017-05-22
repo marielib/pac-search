@@ -1,0 +1,17 @@
+Tigard's search box:
+
+<form id="basic" name="basic" method="get" action="http://catalog.wccls.org/polaris/view.aspx">
+<label>
+<a href="http://catalog.wccls.org/polaris/Search/default.aspx?ctx=29.1033.0.0.1&type=Default">
+<img width="450" height="44" border="0" title="Search for Books, Movies, Movies" src="/images/library/searchfor.jpg">
+</a>
+<br>
+</label>
+<input type="text" name="Keyword" size="47"" style="border: 1px solid #77a2ad; height: 25px;">
+<input type="hidden" value="29.1033.0.0.1" name="ctx">
+<input type="hidden" value="keyword" name="by">
+<input id="submit" class="srchSubmit" type="submit" value="Go!" name="submit" style="border: 1px solid #77a2ad; width:50;" title="Go">
+</form>
+
+
+
